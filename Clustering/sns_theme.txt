@@ -1,0 +1,16 @@
+sns.set_theme{
+  context='talk',
+  style='ticks',
+  font_scale=.8,
+  palette='tab10',
+  rc={
+    'figure.figsize': (12, 8),
+    'axes.grid': True,
+    'grid.alpha': .2,
+    'axes.titlesize': 'x-large',
+    'axes.titleweight': 'bold',
+    'axes.titlepad': 20
+  }
+}
+
+scatter_kwargs = dict{palette='viridis', alpha=0.8, linewidth=0}
